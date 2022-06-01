@@ -1,0 +1,176 @@
+/*****************body部分********************/
+body{
+	background-color: #efeff0;
+}
+
+/****************** 总容器 ******************/
+.wrapper{
+	width: 100%;
+	height: 100%;
+	background-color: #efeff0;
+}
+
+/*********************比赛头部筛选部分***********************/
+.wrapper .competition{
+	width: 100%;
+	height: 100%;
+	background-color: #efeff0;
+}
+.wrapper .competition .header{
+	width: 100%;
+	height: 10vw;
+	background-color: #fff;
+	display: flex;
+}
+.wrapper .competition .header .time{
+	height: 100%;
+	width: 33.333%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 3.5vw;
+}
+.wrapper .competition .header .time div{
+	width: 13vw;
+	height: 5vw;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: solid 0.3vw #d3d3d4;
+	color: #939394;
+}
+.wrapper .competition .header .time div i{
+	margin-left: 2vw;
+}
+.wrapper .competition .header .place{
+	height: 100%;
+	width: 33.333%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 3.5vw;
+}
+.wrapper .competition .header .place div{
+	width: 13vw;
+	height: 5vw;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: solid 0.3vw #d3d3d4;
+	color: #939394;
+}
+.wrapper .competition .header .place div i{
+	margin-left: 2vw;
+}
+.wrapper .competition .header .state{
+	height: 100%;
+	width: 33.333%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 3.5vw;
+}
+.wrapper .competition .header .state div{
+	width: 13vw;
+	height: 5vw;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: solid 0.3vw #d3d3d4;
+	color: #939394;
+}
+.wrapper .competition .header .state div i{
+	margin-left: 2vw;
+}
+
+/**********************比赛内容部分****************************/
+.wrapper .competition .cominfo{
+	width: 100%;
+	height: 80vw;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	margin-top: 4vw;
+	border-radius: 10px;
+}
+.wrapper .competition .cominfo .pic{
+	width: 100%;
+	height: 60%;
+	border-radius: 10px 10px 0 0;
+}
+.wrapper .competition .cominfo .pic img{
+	width: 100%;
+	height: 100%;
+	border-radius: 10px 10px 0 0;
+}
+.wrapper .competition .cominfo .info{
+	width: 100%;
+	height: 30%;
+	border-bottom: solid 0.3vw #DDD;
+}
+.wrapper .competition .cominfo .info h3{
+	font-size: 4.5vw;
+	margin-left: 2vw;
+}
+.wrapper .competition .cominfo .info p{
+	font-size: 3.5vw;
+	margin-top: 4vw;
+	margin-left: 2vw;
+	color: #939394;
+}
+.wrapper .competition .cominfo .timeout{
+	width: 100%;
+	height: 10%;
+	display: flex;
+	align-items: center;
+	border-radius: 0 0 10px 10px;
+	color: #939394;
+}
+.wrapper .competition .cominfo .timeout i{
+	font-size: 5vw;
+	margin-left: 3vw;
+}
+.wrapper .competition .cominfo .timeout p{
+	font-size: 3.5vw;
+	margin-left: 1vw;
+}
+
+
+
+/****************** 底部菜单部分 ******************/
+.wrapper .footer{
+	width: 100%;
+	height: 14vw;
+	border-top: solid 1px #DDD;
+	background-color: #fff;
+	
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.wrapper .footer li{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	color: #999;
+	user-select: none;
+	cursor: pointer;
+}
+.wrapper .footer li p{
+	font-size: 2.8vw;
+}
+.wrapper .footer li i{
+	font-size: 5vw;
+}
+.wrapper .footer .footer3{
+	color: dodgerblue;
+}

@@ -1,0 +1,106 @@
+/****************** 总容器 ******************/
+.wrapper{
+	width: 100%;
+	height: 100%;
+}
+
+/**********************content内容菜单************************/
+.wrapper .content{
+	width: 100%;
+	height: 100%;
+	background-color: #efeff0;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+.wrapper .content .item{
+	width: 95%;
+	height: 35vw;
+	margin-top: 2vw;
+	border: solid;
+	border-radius: 5px;
+	background-color: #fff;
+}
+.wrapper .content .item .topic{
+	width: 100%;
+	height: 23%;
+	display: flex;
+	align-items: center;
+	font-size: 3.2vw;
+	border-color: lightgray;
+}
+.wrapper .content .item .topic h3{
+	margin-left: 2.5vw;
+}
+.wrapper .content .item .words{
+	width: 100%;
+	height: 54%;
+	display: flex;
+}
+.wrapper .content .item .words .times{
+	background-color: #DDD;
+	width: 20vw;
+	height: 5vw;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-left: 1vw;
+	margin-top: 2vw;
+	font-size: 4vw;
+}
+.wrapper .content .item .words p{
+	margin-top: 2vw;
+	font-size: 3.5vw;
+}
+.wrapper .content .item .info {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.wrapper .content .item .info i{
+	margin-top: 1.5vw;
+	font-size: 3.5vw;
+}
+
+/**********************更多部分***********************/
+.wrapper  .content .more{
+	margin-top: 5vw;
+	font-size: 3.5vw;
+	color: dimgrey;
+}
+
+/****************** 底部菜单部分 ******************/
+.wrapper .footer{
+	width: 100%;
+	height: 14vw;
+	border-top: solid 1px #DDD;
+	background-color: #fff;
+	
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.wrapper .footer li{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	color: #999;
+	user-select: none;
+	cursor: pointer;
+}
+.wrapper .footer li p{
+	font-size: 2.8vw;
+}
+.wrapper .footer li i{
+	font-size: 5vw;
+}
+.wrapper .footer .footer2{
+	color: dodgerblue;
+}

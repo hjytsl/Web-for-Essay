@@ -1,0 +1,175 @@
+/***********************body部分***********************/
+body{
+	background-color: #efeff0;
+}
+/****************** 总容器 ******************/
+.wrapper{
+	width: 100%;
+	height: 100%;
+}
+
+/*********************个人信息部分***************************/
+.wrapper .personal{
+	width: 100%;
+	height: 100%;
+	background-color: #efeff0;
+}
+.wrapper .personal .profile{
+	width: 100%;
+	height: 15vw;
+	display: flex;
+	margin-top: 3vw;
+	background-color: #fff;
+	border-top: #DDD solid 0.4vw;
+	border-bottom: #DDD solid 0.4vw;
+}
+.wrapper .personal .profile .pic{
+	height: 100%;
+	width: 20%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.wrapper .personal .profile .pic img{
+	width: 13vw;
+	height: 13vw;
+	border-radius: 50%;
+}
+.wrapper .personal .profile .name{
+	height: 100%;
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+}
+.wrapper .personal .profile .name h3{
+	margin-top: 2.2vw;
+	font-size: 4vw;
+	margin-left: 2vw;
+}
+.wrapper .personal .profile .name p{
+	font-size: 3.5vw;
+	margin-left: 1.3vw;
+	color: #9d9d9e;
+}
+.wrapper .personal .profile .point{
+	height: 100%;
+	width: 10%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 4vw;
+	color: #9d9d9e;
+}
+.wrapper .personal .perinfo{
+	width: 100%;
+	height: 10vw;
+	display: flex;
+	background-color: #fff;
+	border-top: #DDD solid 0.4vw;
+	border-bottom: #DDD solid 0.4vw;
+}
+.wrapper .personal .perinfo .label{
+	height: 100%;
+	width: 90%;
+	display: flex;
+	align-items: center;
+	font-size: 3.5vw;
+}
+.wrapper .personal .perinfo .label p{
+	margin-left: 5vw;
+}
+.wrapper .personal .perinfo .point{
+	height: 100%;
+	width: 10%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 4vw;
+	color: #9d9d9e;
+}
+.wrapper .personal #p1{
+	border-top: #DDD solid 0.4vw;
+	border-bottom: #DDD solid 0.2vw;
+}
+.wrapper .personal #p2{
+	border-top: #DDD solid 0.2vw;
+	border-bottom: #DDD solid 0.4vw;
+}
+.wrapper .personal #p3{
+	border-top: #DDD solid 0.4vw;
+	border-bottom: #DDD solid 0.2vw;
+	margin-top: 2.5vw;
+}
+.wrapper .personal #p4{
+	border-top: #DDD solid 0.2vw;
+	border-bottom: #DDD solid 0.4vw;
+}
+.wrapper .personal #p5{
+	border-top: #DDD solid 0.4vw;
+	border-bottom: #DDD solid 0.2vw;
+	margin-top: 2.5vw;
+}
+.wrapper .personal #p6{
+	border-top: #DDD solid 0.2vw;
+	border-bottom: #DDD solid 0.4vw;
+}
+.wrapper .personal #p7{
+	border-top: #DDD solid 0.4vw;
+	border-bottom: #DDD solid 0.2vw;
+	margin-top: 2.5vw;
+}
+.wrapper .personal #p8{
+	border-top: #DDD solid 0.2vw;
+	border-bottom: #DDD solid 0.4vw;
+}
+.wrapper .personal #p9{
+	margin-top: 2.5vw;
+}
+.wrapper .personal .exit{
+	width: 100%;
+	height: 10vw;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #fff;
+	border-top: #DDD solid 0.4vw;
+	border-bottom: #DDD solid 0.4vw;
+	color: red;
+	margin-top: 2.5vw;
+}
+
+
+/****************** 底部菜单部分 ******************/
+.wrapper .footer{
+	width: 100%;
+	height: 14vw;
+	border-top: solid 1px #DDD;
+	background-color: #fff;
+	
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.wrapper .footer li{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	color: #999;
+	user-select: none;
+	cursor: pointer;
+}
+.wrapper .footer li p{
+	font-size: 2.8vw;
+}
+.wrapper .footer li i{
+	font-size: 5vw;
+}
+.wrapper .footer .footer4{
+	color: dodgerblue;
+}

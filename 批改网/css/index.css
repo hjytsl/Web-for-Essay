@@ -1,0 +1,156 @@
+/****************** 总容器 ******************/
+.wrapper{
+	width: 100%;
+	height: 100%;
+}
+
+
+/****************** header ******************/
+.wrapper .header{
+	width: 100%;
+	height: 50vw;
+	background-color: #008fe8;
+	
+}
+.wrapper .header .search{
+	width: 100%;
+	height: 25%;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.wrapper .header .search .search-box{
+	background-color: #0076bf;
+	width: 90%;
+	height: 60%;
+	border-radius: 2px;
+	display: flex;
+	align-items: center;
+}
+.wrapper .header .search .search-box p{
+	margin-left: 5%;
+	color: #fff;
+	font-size: 3vw;
+}
+.wrapper .header .function{
+	width: 100%;
+	height: 75%;
+}
+.wrapper .header .function .functype{
+	width: 100%;
+	height: 100%;
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	/*要使用align-content。8个子元素将自动换行为两行，而且两行作为一个整体垂直居中*/
+	align-content: center;
+}
+.wrapper .header .function .functype li{
+	width: 23vw;
+	height: 20vw;
+	
+	display: flex;
+	/*弹性盒子主轴方向设为column，然后仍然是垂直水平方向居中*/
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	user-select: none;
+	cursor: pointer;
+	color: white;
+}
+.wrapper .header .function .functype li i{
+	font-size: 8vw;
+}
+.wrapper .header .function .functype li p{
+	font-size: 4vw;
+}
+
+/********************content*******************/
+.wrapper .cotent{
+	width: 100%;
+	height: 25vw;
+	display: flex;
+}
+.wrapper .cotent .left{
+	height: 100%;
+	width: 35%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.wrapper .cotent .left img{
+	width: 85%;
+	height: 85%;
+	border-radius: 5px;
+}
+.wrapper .cotent .right{
+	height: 100%;
+	width: 65%;
+}
+.wrapper .cotent .right h3{
+	font-size: 5vw;
+	margin-top: 1vw;
+}
+.wrapper .cotent .right p{
+	font-size: 3.5vw;
+}
+.wrapper .cotent .right .info{
+	display: flex;
+	margin-top: 5vw;
+}
+.wrapper .cotent .right .info .label{
+	width: 8vw;
+	height: 5vw;
+	border: solid limegreen 0.5vw;
+	border-radius: 5px;
+	font-size: 3.7vw;
+}
+.wrapper .cotent .right .info i{
+	margin-left: 15vw;
+	font-size: 3.7vw;
+}
+
+/*********************content分割线**********************/
+.wrapper hr{
+	width: 95%;
+	color: lightgray;
+	background-color: lightgray;
+}
+
+/****************** 底部菜单部分 ******************/
+.wrapper .footer{
+	width: 100%;
+	height: 14vw;
+	border-top: solid 1px #DDD;
+	background-color: #fff;
+	
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.wrapper .footer li{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	color: #999;
+	user-select: none;
+	cursor: pointer;
+}
+.wrapper .footer li p{
+	font-size: 2.8vw;
+}
+.wrapper .footer li i{
+	font-size: 5vw;
+}
+.wrapper .footer .footer1{
+	color: dodgerblue;
+}
